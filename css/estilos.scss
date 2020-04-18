@@ -1,0 +1,170 @@
+body{
+    height: 4000px;
+}
+
+/*
+    1. PATRONES DE COLORES
+*/
+
+$primary: #f46669;
+$secondary: #c7c57d;
+$texto: #444;
+
+
+/*
+    1.1 MODIFICANDO EL BTN PRIMARY
+*/
+
+.btn-primary{
+    background-color: $primary;
+    border: $primary;
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover
+{
+    border: $primary;
+    box-shadow: 0 0 0 0.2rem rgba($primary, .5);
+    background-color: darken($primary, 5%);
+}
+
+/*
+    2. ESTILOS AL MENU DE NAVEGACIÓN
+*/
+
+#menuDeNavegacion{
+    li a{
+        text-decoration: none;
+        color: #000;
+    }
+
+    li a:hover{
+        color: $primary;
+    }
+}
+
+/*
+    3. ESTILOS A LA SECCIÓN #conocenos
+*/
+
+#conocenos{
+    .bg-bloque{
+        height: 30rem;
+    }
+    .bg-principal{
+        background-color: $primary;
+        color: #fff;
+    }
+    .bg-secundario{
+        background-color: $secondary;
+        color: $texto;
+    }
+    .bg-vino{
+        background-image: url(../images/principal1.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bg-pan{
+        background-image: url(../images/principal2.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+/*
+    4. ESTILOS SOBRE LA SECCIÓN #quieresSerChef
+*/
+
+.parallax__container {
+    clip: rect(0, auto, auto, 0);
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -100; }
+  
+  .parallax {
+    position: fixed;
+    top: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    width: 100%;
+    /* BG behaviour */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  
+  #quieresSerChef{
+    height: 40rem; 
+
+    h2{
+        font-size: 2.4rem;
+    }
+
+    p{
+        font-size: 1.7rem;
+        line-height: 3rem;
+    }
+
+}
+
+/*
+    5. ESTILOS SOBRE LA SECCIÓN #proximasClases
+*/
+
+#proximasClases{
+
+    background-color: #F5F5F5;
+
+    .card-metadata{
+        background-color: $primary;
+    }
+
+    .badge-secondary{
+        background-color: $secondary;
+        color: #000;
+    }
+
+    .subtitulo{
+        color: $primary;
+    }
+}
+
+/*
+    6. ESTILOS AL FOOTER
+*/
+
+#pieDePagina{
+
+    border-bottom: 10px solid $primary;
+    
+    a{
+        color: #444;
+        text-decoration: none;
+    }
+
+    a:hover{
+        color: $primary;
+    }
+
+}
+
+
+/*
+    X. MEDIAS QUERYS
+*/
+
+@media (min-width:768px){
+    #conocenos{
+        .bg-bloque{
+            height: 45rem;
+        }
+    }
+}

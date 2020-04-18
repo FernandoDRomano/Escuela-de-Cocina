@@ -1,0 +1,119 @@
+@charset "UTF-8";
+body {
+  height: 4000px; }
+
+/*
+    1. PATRONES DE COLORES
+*/
+/*
+    1.1 MODIFICANDO EL BTN PRIMARY
+*/
+.btn-primary {
+  background-color: #f46669;
+  border: #f46669; }
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+  border: #f46669;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(244, 102, 105, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(244, 102, 105, 0.5);
+  background-color: #f24e52; }
+
+/*
+    2. ESTILOS AL MENU DE NAVEGACIÓN
+*/
+#menuDeNavegacion li a {
+  text-decoration: none;
+  color: #000; }
+#menuDeNavegacion li a:hover {
+  color: #f46669; }
+
+/*
+    3. ESTILOS A LA SECCIÓN #conocenos
+*/
+#conocenos .bg-bloque {
+  height: 30rem; }
+#conocenos .bg-principal {
+  background-color: #f46669;
+  color: #fff; }
+#conocenos .bg-secundario {
+  background-color: #c7c57d;
+  color: #444; }
+#conocenos .bg-vino {
+  background-image: url(../images/principal1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+#conocenos .bg-pan {
+  background-image: url(../images/principal2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/*
+    4. ESTILOS SOBRE LA SECCIÓN #quieresSerChef
+*/
+.parallax__container {
+  clip: rect(0, auto, auto, 0);
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -100; }
+
+.parallax {
+  position: fixed;
+  top: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  width: 100%;
+  /* BG behaviour */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#quieresSerChef {
+  height: 40rem; }
+  #quieresSerChef h2 {
+    font-size: 2.4rem; }
+  #quieresSerChef p {
+    font-size: 1.7rem;
+    line-height: 3rem; }
+
+/*
+    5. ESTILOS SOBRE LA SECCIÓN #proximasClases
+*/
+#proximasClases {
+  background-color: #F5F5F5; }
+  #proximasClases .card-metadata {
+    background-color: #f46669; }
+  #proximasClases .badge-secondary {
+    background-color: #c7c57d;
+    color: #000; }
+  #proximasClases .subtitulo {
+    color: #f46669; }
+
+/*
+    6. ESTILOS AL FOOTER
+*/
+#pieDePagina {
+  border-bottom: 10px solid #f46669; }
+  #pieDePagina a {
+    color: #444;
+    text-decoration: none; }
+  #pieDePagina a:hover {
+    color: #f46669; }
+
+/*
+    X. MEDIAS QUERYS
+*/
+@media (min-width: 768px) {
+  #conocenos .bg-bloque {
+    height: 45rem; } }
+
+/*# sourceMappingURL=estilos.css.map */
