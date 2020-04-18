@@ -1,7 +1,3 @@
-body{
-    height: 4000px;
-}
-
 /*
     1. PATRONES DE COLORES
 */
@@ -156,6 +152,27 @@ $texto: #444;
 
 }
 
+//////////////////////////////////////////////////////////////////
+/////////////////////// PAGINA NOSOTROS //////////////////////////
+//////////////////////////////////////////////////////////////////
+
+#paginaNosotros{
+
+    .bg-imagen-nosotros{
+        background-image: url(../images/principal1.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 24rem;
+    }
+
+    .sector-nosotros{
+        margin-top: -7.5rem;
+        z-index: 10;
+        background-color: #fff;
+    }
+
+}
 
 /*
     X. MEDIAS QUERYS
