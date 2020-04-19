@@ -180,6 +180,44 @@ $texto: #444;
 
 }
 
+//////////////////////////////////////////////////////////////////
+///////////////////////// PAGINA BLOG ////////////////////////////
+//////////////////////////////////////////////////////////////////
+
+#blog{
+    .border-izquierdo{
+        border-left: 3px solid $primary;
+    }
+
+    .titulo{
+        color: $primary;
+        font-weight: 500;
+    }
+
+    .colorPrimario{
+        color: $primary;
+    }
+
+    .contenido{
+        line-height: 2rem;
+    }
+
+    .bg-primary{
+        background-color: $primary!important;
+    }
+
+    .card{
+        border: 0;
+        .card-footer{
+            background-color: $secondary;
+            a{
+                color: $texto;
+            }
+        }
+    }
+
+}
+
 /*
     X. MEDIAS QUERYS
 */
@@ -188,6 +226,13 @@ $texto: #444;
     #conocenos{
         .bg-bloque{
             height: 45rem;
+        }
+    }
+    
+    #blog{
+        .btn-block {
+            display: inline-block;
+            width: auto;
         }
     }
 }
