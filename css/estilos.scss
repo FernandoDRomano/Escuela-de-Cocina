@@ -7,6 +7,10 @@ $secondary: #c7c57d;
 $texto: #444;
 
 
+.text-primary{
+    color: $primary!important;
+}
+
 /*
     1.1 MODIFICANDO EL BTN PRIMARY
 */
@@ -216,6 +220,43 @@ $texto: #444;
         }
     }
 
+}
+
+//////////////////////////////////////////////////////////////////
+///////////////////////// PAGINA CLASE ///////////////////////////
+//////////////////////////////////////////////////////////////////
+
+#claseIndividual{
+    .bg-imagen-clase{
+        background-image: url(../images/clase1.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 24rem;
+    }
+    .sector-informacion{
+        z-index: 10;
+        margin-top: -8rem;
+        background-color: #fff;
+    }
+
+    .informacionInstructor{
+        .parrafo{
+            line-height: 2rem;
+        }
+    }
+
+    .informacionSecundaria li{
+        background-color: $secondary;
+        text-align: left;
+        color: #fff;
+    }
+
+    .informacionPrimaria li{
+        background-color: $primary;
+        text-align: left;
+        color: #fff;
+    }
 }
 
 /*

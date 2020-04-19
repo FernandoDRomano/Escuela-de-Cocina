@@ -2,6 +2,9 @@
 /*
     1. PATRONES DE COLORES
 */
+.text-primary {
+  color: #f46669 !important; }
+
 /*
     1.1 MODIFICANDO EL BTN PRIMARY
 */
@@ -139,6 +142,27 @@
     background-color: #c7c57d; }
     #blog .card .card-footer a {
       color: #444; }
+
+#claseIndividual .bg-imagen-clase {
+  background-image: url(../images/clase1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 24rem; }
+#claseIndividual .sector-informacion {
+  z-index: 10;
+  margin-top: -8rem;
+  background-color: #fff; }
+#claseIndividual .informacionInstructor .parrafo {
+  line-height: 2rem; }
+#claseIndividual .informacionSecundaria li {
+  background-color: #c7c57d;
+  text-align: left;
+  color: #fff; }
+#claseIndividual .informacionPrimaria li {
+  background-color: #f46669;
+  text-align: left;
+  color: #fff; }
 
 /*
     X. MEDIAS QUERYS
