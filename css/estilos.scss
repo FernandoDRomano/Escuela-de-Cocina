@@ -38,6 +38,12 @@ $texto: #444;
     li a:hover{
         color: $primary;
     }
+
+    .activo{
+        color: $primary;
+        border-bottom: 2px solid $primary;
+        padding-bottom: .5rem;
+    }
 }
 
 /*

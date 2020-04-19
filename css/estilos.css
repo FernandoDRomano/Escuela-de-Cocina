@@ -25,6 +25,10 @@
   color: #000; }
 #menuDeNavegacion li a:hover {
   color: #f46669; }
+#menuDeNavegacion .activo {
+  color: #f46669;
+  border-bottom: 2px solid #f46669;
+  padding-bottom: .5rem; }
 
 /*
     3. ESTILOS A LA SECCIÓN #conocenos
