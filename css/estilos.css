@@ -121,8 +121,9 @@
   z-index: 10;
   background-color: #fff; }
 
-#blog .border-izquierdo {
+.border-izquierdo {
   border-left: 3px solid #f46669; }
+
 #blog .titulo {
   color: #f46669;
   font-weight: 500; }
