@@ -164,6 +164,17 @@
   text-align: left;
   color: #fff; }
 
+#paginaContacto .bg-imagen-contacto {
+  background-image: url(../images/principal2.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 24rem; }
+#paginaContacto .sector-contacto {
+  margin-top: -8rem;
+  z-index: 10;
+  background-color: #fff; }
+
 /*
     X. MEDIAS QUERYS
 */
@@ -172,6 +183,10 @@
     height: 45rem; }
 
   #blog .btn-block {
+    display: inline-block;
+    width: auto; }
+
+  #paginaContacto .btn-block {
     display: inline-block;
     width: auto; } }
 
