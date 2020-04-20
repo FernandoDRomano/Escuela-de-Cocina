@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CARGA DE BOOSTRAP -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- CARGANDO FONT AWESOME -->
+    <link rel="stylesheet" href="fonts/css/all.min.css"/>
+    <!-- CARGANDO ANIMATE.CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- ESTILOS PROPIOS -->
+    <link rel="stylesheet" href="css/estilos.css" />
+    <title>Escuela de Cocina | Nosotros</title>
+  </head>
+  <body>
+
+    <!-- MENU DE NAVEGACIÓN-->
+    <header id="menuDeNavegacion" class="py-5">
+      <div class="container">
+        <div
+          class="row justify-content-center justify-content-lg-between align-items-center"
+        >
+          <div class="col-8 col-md-4 mb-4 mb-sm-2 mb-md-0">
+            <a href="index.html">
+              <img
+                src="images/logo.svg"
+                alt="Logo del sitio"
+                class="img-fluid"
+              />
+            </a>
+          </div>
+          <div class="col-12 col-md-8 col-lg-6 justify-content-end">
+            <nav
+              class="navbar navbar-expand-sm navbar-light justify-content-center"
+            >
+              <button
+                class="navbar-toggler d-sm-none"
+                type="button"
+                data-toggle="collapse"
+                data-target="#menuPrincipal"
+                aria-controls="menuPrincipal"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul
+                  class="list-unstyled d-flex flex-column flex-sm-row justify-content-between mb-0 w-100 text-center text-md-left py-3 py-sm-0"
+                >
+                  <li class="py-1 py-sm-0">
+                    <a class="text-uppercase" href="nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="py-1 py-sm-0">
+                    <a class="text-uppercase" href="blog.html">Blog</a>
+                  </li>
+                  <li class="py-1 py-sm-0">
+                    <a class="text-uppercase" href="clases.html">Clases</a>
+                  </li>
+                  <li class="py-1 py-sm-0">
+                    <a class="text-uppercase" href="galeria.html">Galería</a>
+                  </li>
+                  <li class="py-1 py-sm-0">
+                    <a class="text-uppercase activo" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- SECCION NOSOTROS -->
+    <section id="paginaContacto">
+        <div class="container">
+            <div class="row bg-imagen-contacto"></div>
+            <div class="row justify-content-center pt-5">
+                <div class="col-12 col-sm-10 col-md-8 text-center border p-5 sector-contacto">
+                    <h2 class="">Contacto</h2>
+                    <img src="images/separador.png" alt="Imagen de separador" class="img-fluid py-3 mb-4">
+                    <form action="#" id="formulario">
+
+                        <div class="form-row">
+
+                            <div class="form-group col-12 text-left">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Ingresar su Nombre...">
+                            </div>
+
+                            <div class="form-group col-12 col-md-6 text-left">
+                                <label for="telefono">Teléfono</label>
+                                <input type="text" name="telefono" id="telefono" class="form-control" placeholder="Ingresar su Telefono de contacto...">
+                            </div>
+                            
+                            <div class="form-group col-12 col-md-6 text-left">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" class="form-control" placeholder="Ingresar su Email...">
+                            </div>
+                            
+                            <div class="form-group col-12 text-left">
+                                <label for="mensaje">Mensaje</label>
+                                <textarea name="mensaje" id="mensaje" class="form-control" rows="5" placeholder="Ingrese su mensaje..."></textarea>
+                            </div>
+
+                            <div class="form-group col-12 text-right">
+                                <a href="#" class="btn btn-primary btn-block">Enviar Mensaje <i class="fas fa-paper-plane pl-1"></i></a>
+                            </div>
+
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN PIE DE PÁGINA -->
+    <footer id="pieDePagina" class="py-4">
+      <div class="container">
+        <div class="row justify-content-md-between align-items-md-center">
+          <div class="col-12 col-md-8">
+            <ul
+              class="list-unstyled d-flex flex-column flex-md-row text-center mb-md-0"
+            >
+              <li class="py-1 py-md-0 px-md-2">
+                <a class="text-uppercase" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="py-1 py-md-0 px-md-2">
+                <a class="text-uppercase" href="blog.html">Blog</a>
+              </li>
+              <li class="py-1 py-md-0 px-md-2">
+                <a class="text-uppercase" href="clases.html">Clases</a>
+              </li>
+              <li class="py-1 py-md-0 px-md-2">
+                <a class="text-uppercase" href="galeria.html">Galería</a>
+              </li>
+              <li class="py-1 py-md-0 px-md-2">
+                <a class="text-uppercase" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 text-center text-md-right">
+            <p class="font-weight-bold mb-0">Todos los derechos reservados</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- CARGA DE JQUERY -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- CARGA DE POPPER -->
+    <script src="js/popper.min.js"></script>
+    <!-- CARGA DE BOOTSTRAP -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- CARGA DE UNIVERSAL PARALLAX -->
+    <script src="js/universal-parallax.min.js"></script>
+    <!-- CARGA DE SCRIPTS PROPIOS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
