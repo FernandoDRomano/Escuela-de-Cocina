@@ -44,16 +44,6 @@
 #conocenos .bg-secundario {
   background-color: #c7c57d;
   color: #444; }
-#conocenos .bg-vino {
-  background-image: url(../images/principal1.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-#conocenos .bg-pan {
-  background-image: url(../images/principal2.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover; }
 
 /*
     4. ESTILOS SOBRE LA SECCIÓN #quieresSerChef
